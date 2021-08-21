@@ -10,7 +10,7 @@ public class Person {
 
     public String greet(String other) {
         // Change the code between here ...
-        return MessageFormat.format("Hi {1}, my name is {0}", this.name, this.other);
+        return MessageFormat.format("Hi {1}, my name is {0}", this.name, other);
         // ... and here!
     }
 
